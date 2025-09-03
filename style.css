@@ -12,3 +12,19 @@ a{
 ul, ol, li{
     list-style: none;
 }
+
+.quadrados{
+    width: 100%;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quadrados div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 4px 4px 4px black;
+}
